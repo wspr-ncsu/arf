@@ -1,0 +1,18 @@
+# getOutput_AnalysisDir
+arf-dir: [work-dir, arf]
+
+# getInput_OnlyCallerRestrictionsFile
+arf_only-caller-restrictions-file: [arf-dir, only_caller_restrictions.txt]
+# getInput_SingleHopRelationshipsTempFile
+arf_single-hop-temp-file: [arf-dir, sinlge_hop_temp.txt]
+# getInput_KnownVulnPathsTempFile
+arf_known-vuln-paths-temp-file: [arf-dir, known_vuln_paths_temp.tsv]
+# getInput_SpecialCallerContextQueriesTempFile
+arf_special-caller-context-queries-temp-file: [arf-dir, special_caller_context_queries_temp.txt]
+# getInput_MethodsWithArgNamesTempFile
+arf_methods-with-arg-names-temp-file: [arf-dir, methods_with_arg_names_temp.txt]
+
+# getOutput_Analysis_GraphDir
+debug_arf-graph-dir: [debug-dir, arf_graph]
+# getOutput_Analysis_OutDir
+debug_arf-dir: [debug-dir, arf]

@@ -1,0 +1,28 @@
+-
+  name: ARF
+  handler: org.sag.arf.ARFHandler
+  dependency-handlers: ACMiner
+  root-path: arf-dir
+  out-paths: null
+  dependency-paths: [lookup-dependency-paths: ACMiner, lookup-output-paths: ACMiner]
+  other-paths: null
+  options:
+    Perm: [boolean, '']
+    PermString: [boolean, '']
+    Group: [boolean, '']
+    OnlyUserPerm: [boolean, '']
+    OnlyCallerRes: [boolean, '']
+    ReachingGraph: [boolean, '']
+    SingleHop: [boolean, '']
+    OnlyRegisteredCallers: [boolean, '']
+    OnlyResultsReachingOthers: [boolean, '']
+    RemoveDeputyTargetChecks: [boolean, '']
+    TestIfKnownVuln: [boolean, '']
+    RemoveTargetsPartOfChecks: [boolean, '']
+    RemoveSameCallingId: [boolean, '']
+    RemoveGlobalSettingsNoise: [boolean, '']
+    RemoveSpecialCallersRequired: [boolean, '']
+    RemoveAlreadyHandelingMultiUser: [boolean, '']
+    RemoveMultiUserNotNeeded: [boolean, '']
+    WholeGraph: [boolean, '']
+    

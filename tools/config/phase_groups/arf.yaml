@@ -1,0 +1,6 @@
+name: ARF
+data-accessor: org.sag.acminer.ACMinerDataAccessor
+phases: [JimpleJar, EntryPoints, BinderGroups, BinderServices, ExcludedElements, CallGraph, AccessControlMarker, ControlPredicateMarker, DefUseGraph, ControlPredicateFilter, DefUseGraphMod, ACMinerDebug, ACMiner, ARF]
+options:
+  default:
+    ARF: [enable, 'true']
